@@ -37,13 +37,10 @@ python linear_regression.py
 The script will produce the following output:
 
 1. **Model Details in the Console**:
-*Coefficients*: These numbers show the impact of each feature on the house price. For example, a positive coefficient for `Num_Bedrooms` means that, on average, the price increases as the number of bedrooms increases.
-
-*Intercept*: This is the theoretical base price of a house if all other features were zero.
-
-*Mean Squared Error (MSE)*: This measures the average squared difference between the actual and predicted prices. A lower MSE indicates a better fit.
-
-*R-squared*: This value, between 0 and 1, indicates how much of the variation in house prices can be explained by our model. For example, an R-squared of 0.85 means that 85% of the price variations can be explained by our model's features.
+* *Coefficients*: These numbers show the impact of each feature on the house price. For example, a positive coefficient for `Num_Bedrooms` means that, on average, the price increases as the number of bedrooms increases.
+* *Intercept*: This is the theoretical base price of a house if all other features were zero.
+* *Mean Squared Error (MSE)*: This measures the average squared difference between the actual and predicted prices. A lower MSE indicates a better fit.
+* *R-squared*: This value, between 0 and 1, indicates how much of the variation in house prices can be explained by our model. For example, an R-squared of 0.85 means that 85% of the price variations can be explained by our model's features.
 
 2. **A Plot**:
 A scatter plot named `actual_vs_predicted.png` will be saved in the same directory. This plot helps you visualize the model's performance by showing how close the predicted prices (on the y-axis) are to the actual prices (on the x-axis). The more the points align in a straight diagonal line, the better the model's predictions.
